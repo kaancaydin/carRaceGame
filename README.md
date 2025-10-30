@@ -3,6 +3,8 @@
 Car Racing Game
 A simple and fun car racing game built with HTML5 Canvas.
 
+🚗💨<a href="https://kaancaydin.github.io/carRaceGame/">Click here to play the game! </a>
+
 How to Play
 Use LEFT and RIGHT arrow keys to move your car
 
