@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Race Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="score-container">
+            <div class="score-label">SCORE: <span id="scoreValue">0</span></div>
+            <div class="score-label">TOP SCORE: <span id="highScoreValue">0</span></div>
+        </div>
+        <canvas id="gameCanvas" width="800" height="500"></canvas>
+        
+        <div class="mobile-controls">
+            <div class="mobile-btn" id="leftBtn">←</div>
+            <div class="mobile-btn" id="rightBtn">→</div>
+        </div>
+        
+        <div class="controls">
+            Control your car with the left/right arrow keys.
+        </div>
+        
+        <div class="start-screen" id="startScreen">
+            <h1 class="start-title">CAR RACE</h1>
+            <p>Run away from obstacles and try to score high!</p>
+            <button class="start-button" id="startButton">START</button>
+        </div>
+        
+        <button id="restartButton" class="restart-button hidden">RESTART</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
